@@ -3,25 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940703A922E268AF00D37FB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 940703A822E268AF00D37FB7 /* Default-568h@2x.png */; };
+		940703AB22E26A2500D37FB7 /* Comment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703AA22E26A2500D37FB7 /* Comment.storyboard */; };
+		940703AD22E26A3400D37FB7 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703AC22E26A3400D37FB7 /* Message.storyboard */; };
+		940703AF22E26A4000D37FB7 /* Publication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703AE22E26A4000D37FB7 /* Publication.storyboard */; };
+		940703B122E26A4D00D37FB7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703B022E26A4D00D37FB7 /* Profile.storyboard */; };
+		940703B322E26A5800D37FB7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703B222E26A5800D37FB7 /* Home.storyboard */; };
+		940703B922E26A9B00D37FB7 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703B622E26A9B00D37FB7 /* SignUp.swift */; };
+		940703BA22E26A9B00D37FB7 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703B722E26A9B00D37FB7 /* SignUp.storyboard */; };
+		940703BB22E26A9B00D37FB7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703B822E26A9B00D37FB7 /* SignUpViewController.swift */; };
+		940703BF22E26AAA00D37FB7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703BC22E26AAA00D37FB7 /* SignInViewController.swift */; };
+		940703C022E26AAA00D37FB7 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703BD22E26AAA00D37FB7 /* SignIn.storyboard */; };
+		940703C122E26AAA00D37FB7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703BE22E26AAA00D37FB7 /* SignInViewModel.swift */; };
+		940703C322E26ABF00D37FB7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703C222E26ABF00D37FB7 /* Colors.xcassets */; };
+		940703C722E26AE800D37FB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703C622E26AE800D37FB7 /* Constants.swift */; };
+		940703C922E26BEA00D37FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703C822E26BEA00D37FB7 /* Assets.xcassets */; };
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
 		94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F322E0FB47005F8FE6 /* ViewController.swift */; };
 		94A165F722E0FB47005F8FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A165F522E0FB47005F8FE6 /* Main.storyboard */; };
-		94A165F922E0FB48005F8FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A165F822E0FB48005F8FE6 /* Assets.xcassets */; };
 		94A165FC22E0FB48005F8FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A165FA22E0FB48005F8FE6 /* LaunchScreen.storyboard */; };
 		9E7305C8B0170822950778C6 /* Pods_Profesiones_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DDBF313F84CA468C9CA581 /* Pods_Profesiones_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12738719EFDB44402AC22F0E /* Pods-Profesiones App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Profesiones App.release.xcconfig"; path = "Target Support Files/Pods-Profesiones App/Pods-Profesiones App.release.xcconfig"; sourceTree = "<group>"; };
+		940703A822E268AF00D37FB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		940703AA22E26A2500D37FB7 /* Comment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Comment.storyboard; sourceTree = "<group>"; };
+		940703AC22E26A3400D37FB7 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		940703AE22E26A4000D37FB7 /* Publication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Publication.storyboard; sourceTree = "<group>"; };
+		940703B022E26A4D00D37FB7 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		940703B222E26A5800D37FB7 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		940703B622E26A9B00D37FB7 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		940703B722E26A9B00D37FB7 /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		940703B822E26A9B00D37FB7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		940703BC22E26AAA00D37FB7 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		940703BD22E26AAA00D37FB7 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		940703BE22E26AAA00D37FB7 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		940703C222E26ABF00D37FB7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		940703C622E26AE800D37FB7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		940703C822E26BEA00D37FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Volumes/ARLID/FutbolCrack/FutbolCrack/Resources/Images/Assets.xcassets; sourceTree = "<group>"; };
 		94A165EE22E0FB47005F8FE6 /* Profesiones App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profesiones App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A165F122E0FB47005F8FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A165F322E0FB47005F8FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94A165F622E0FB47005F8FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94A165F822E0FB48005F8FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A165FB22E0FB48005F8FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A165FD22E0FB48005F8FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE0CA1E9105BEB92FABA6FA7 /* Pods-Profesiones App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Profesiones App.debug.xcconfig"; path = "Target Support Files/Pods-Profesiones App/Pods-Profesiones App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,9 +68,167 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9407039822E2676E00D37FB7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				940703A722E2686A00D37FB7 /* Publication */,
+				940703A622E2686200D37FB7 /* Profile */,
+				940703A522E2685300D37FB7 /* Message */,
+				940703A322E2683800D37FB7 /* Main */,
+				940703A222E2682E00D37FB7 /* Home */,
+				940703A122E2682500D37FB7 /* History */,
+				940703A022E2681900D37FB7 /* Comment */,
+				9407039F22E2681100D37FB7 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9407039922E2677F00D37FB7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				94A165FA22E0FB48005F8FE6 /* LaunchScreen.storyboard */,
+				94A165F122E0FB47005F8FE6 /* AppDelegate.swift */,
+				94A165FD22E0FB48005F8FE6 /* Info.plist */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9407039A22E2679500D37FB7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				940703C622E26AE800D37FB7 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9407039B22E267BC00D37FB7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9407039C22E267CC00D37FB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9407039E22E267F600D37FB7 /* Colors */,
+				9407039D22E267E500D37FB7 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9407039D22E267E500D37FB7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				940703C822E26BEA00D37FB7 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9407039E22E267F600D37FB7 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				940703C222E26ABF00D37FB7 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		9407039F22E2681100D37FB7 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				940703B522E26A8B00D37FB7 /* Sign In */,
+				940703B422E26A7E00D37FB7 /* Sign Up */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		940703A022E2681900D37FB7 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				940703AA22E26A2500D37FB7 /* Comment.storyboard */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		940703A122E2682500D37FB7 /* History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		940703A222E2682E00D37FB7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				940703B222E26A5800D37FB7 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		940703A322E2683800D37FB7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				940703A422E2684700D37FB7 /* Main */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		940703A422E2684700D37FB7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				94A165F522E0FB47005F8FE6 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		940703A522E2685300D37FB7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				940703AC22E26A3400D37FB7 /* Message.storyboard */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		940703A622E2686200D37FB7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				940703B022E26A4D00D37FB7 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		940703A722E2686A00D37FB7 /* Publication */ = {
+			isa = PBXGroup;
+			children = (
+				940703AE22E26A4000D37FB7 /* Publication.storyboard */,
+			);
+			path = Publication;
+			sourceTree = "<group>";
+		};
+		940703B422E26A7E00D37FB7 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				940703B722E26A9B00D37FB7 /* SignUp.storyboard */,
+				940703B622E26A9B00D37FB7 /* SignUp.swift */,
+				940703B822E26A9B00D37FB7 /* SignUpViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		940703B522E26A8B00D37FB7 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				940703BD22E26AAA00D37FB7 /* SignIn.storyboard */,
+				940703BC22E26AAA00D37FB7 /* SignInViewController.swift */,
+				940703BE22E26AAA00D37FB7 /* SignInViewModel.swift */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
 		94A165E522E0FB47005F8FE6 = {
 			isa = PBXGroup;
 			children = (
+				940703A822E268AF00D37FB7 /* Default-568h@2x.png */,
 				94A165F022E0FB47005F8FE6 /* Profesiones App */,
 				94A165EF22E0FB47005F8FE6 /* Products */,
 				C555B764C96464C573DCB5B5 /* Pods */,
@@ -61,12 +247,12 @@
 		94A165F022E0FB47005F8FE6 /* Profesiones App */ = {
 			isa = PBXGroup;
 			children = (
-				94A165F122E0FB47005F8FE6 /* AppDelegate.swift */,
+				9407039C22E267CC00D37FB7 /* Resources */,
+				9407039B22E267BC00D37FB7 /* Controllers */,
+				9407039A22E2679500D37FB7 /* Constants */,
+				9407039922E2677F00D37FB7 /* Base */,
+				9407039822E2676E00D37FB7 /* Application */,
 				94A165F322E0FB47005F8FE6 /* ViewController.swift */,
-				94A165F522E0FB47005F8FE6 /* Main.storyboard */,
-				94A165F822E0FB48005F8FE6 /* Assets.xcassets */,
-				94A165FA22E0FB48005F8FE6 /* LaunchScreen.storyboard */,
-				94A165FD22E0FB48005F8FE6 /* Info.plist */,
 			);
 			path = "Profesiones App";
 			sourceTree = "<group>";
@@ -77,7 +263,6 @@
 				AE0CA1E9105BEB92FABA6FA7 /* Pods-Profesiones App.debug.xcconfig */,
 				12738719EFDB44402AC22F0E /* Pods-Profesiones App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,9 +334,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940703AF22E26A4000D37FB7 /* Publication.storyboard in Resources */,
 				94A165FC22E0FB48005F8FE6 /* LaunchScreen.storyboard in Resources */,
-				94A165F922E0FB48005F8FE6 /* Assets.xcassets in Resources */,
+				940703B122E26A4D00D37FB7 /* Profile.storyboard in Resources */,
+				940703B322E26A5800D37FB7 /* Home.storyboard in Resources */,
+				940703BA22E26A9B00D37FB7 /* SignUp.storyboard in Resources */,
+				940703A922E268AF00D37FB7 /* Default-568h@2x.png in Resources */,
+				940703C922E26BEA00D37FB7 /* Assets.xcassets in Resources */,
+				940703C022E26AAA00D37FB7 /* SignIn.storyboard in Resources */,
 				94A165F722E0FB47005F8FE6 /* Main.storyboard in Resources */,
+				940703C322E26ABF00D37FB7 /* Colors.xcassets in Resources */,
+				940703AD22E26A3400D37FB7 /* Message.storyboard in Resources */,
+				940703AB22E26A2500D37FB7 /* Comment.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +399,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */,
+				940703B922E26A9B00D37FB7 /* SignUp.swift in Sources */,
+				940703C122E26AAA00D37FB7 /* SignInViewModel.swift in Sources */,
+				940703BB22E26A9B00D37FB7 /* SignUpViewController.swift in Sources */,
+				940703C722E26AE800D37FB7 /* Constants.swift in Sources */,
+				940703BF22E26AAA00D37FB7 /* SignInViewController.swift in Sources */,
 				94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +553,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZMX3C2B594;
-				INFOPLIST_FILE = "Profesiones App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Profesiones App/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,7 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.com.arlid.Profesiones-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -373,7 +573,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZMX3C2B594;
-				INFOPLIST_FILE = "Profesiones App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Profesiones App/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.com.arlid.Profesiones-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
