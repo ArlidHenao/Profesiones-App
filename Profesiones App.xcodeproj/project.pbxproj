@@ -19,9 +19,9 @@
 		940703BF22E26AAA00D37FB7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703BC22E26AAA00D37FB7 /* SignInViewController.swift */; };
 		940703C022E26AAA00D37FB7 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703BD22E26AAA00D37FB7 /* SignIn.storyboard */; };
 		940703C122E26AAA00D37FB7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703BE22E26AAA00D37FB7 /* SignInViewModel.swift */; };
-		940703C322E26ABF00D37FB7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703C222E26ABF00D37FB7 /* Colors.xcassets */; };
 		940703C722E26AE800D37FB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940703C622E26AE800D37FB7 /* Constants.swift */; };
-		940703C922E26BEA00D37FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703C822E26BEA00D37FB7 /* Assets.xcassets */; };
+		940703CD22E26E1900D37FB7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703CC22E26E1900D37FB7 /* Colors.xcassets */; };
+		940703CF22E26EBD00D37FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703CE22E26EBD00D37FB7 /* Assets.xcassets */; };
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
 		94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F322E0FB47005F8FE6 /* ViewController.swift */; };
 		94A165F722E0FB47005F8FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A165F522E0FB47005F8FE6 /* Main.storyboard */; };
@@ -43,9 +43,9 @@
 		940703BC22E26AAA00D37FB7 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		940703BD22E26AAA00D37FB7 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		940703BE22E26AAA00D37FB7 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
-		940703C222E26ABF00D37FB7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		940703C622E26AE800D37FB7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		940703C822E26BEA00D37FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Volumes/ARLID/FutbolCrack/FutbolCrack/Resources/Images/Assets.xcassets; sourceTree = "<group>"; };
+		940703CC22E26E1900D37FB7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		940703CE22E26EBD00D37FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A165EE22E0FB47005F8FE6 /* Profesiones App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profesiones App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A165F122E0FB47005F8FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A165F322E0FB47005F8FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		9407039D22E267E500D37FB7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				940703C822E26BEA00D37FB7 /* Assets.xcassets */,
+				940703CE22E26EBD00D37FB7 /* Assets.xcassets */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 		9407039E22E267F600D37FB7 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				940703C222E26ABF00D37FB7 /* Colors.xcassets */,
+				940703CC22E26E1900D37FB7 /* Colors.xcassets */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -340,11 +340,11 @@
 				940703B322E26A5800D37FB7 /* Home.storyboard in Resources */,
 				940703BA22E26A9B00D37FB7 /* SignUp.storyboard in Resources */,
 				940703A922E268AF00D37FB7 /* Default-568h@2x.png in Resources */,
-				940703C922E26BEA00D37FB7 /* Assets.xcassets in Resources */,
 				940703C022E26AAA00D37FB7 /* SignIn.storyboard in Resources */,
 				94A165F722E0FB47005F8FE6 /* Main.storyboard in Resources */,
-				940703C322E26ABF00D37FB7 /* Colors.xcassets in Resources */,
+				940703CD22E26E1900D37FB7 /* Colors.xcassets in Resources */,
 				940703AD22E26A3400D37FB7 /* Message.storyboard in Resources */,
+				940703CF22E26EBD00D37FB7 /* Assets.xcassets in Resources */,
 				940703AB22E26A2500D37FB7 /* Comment.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,7 +550,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE0CA1E9105BEB92FABA6FA7 /* Pods-Profesiones App.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZMX3C2B594;
 				INFOPLIST_FILE = "$(SRCROOT)/Profesiones App/Base/Info.plist";
@@ -570,7 +569,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12738719EFDB44402AC22F0E /* Pods-Profesiones App.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZMX3C2B594;
 				INFOPLIST_FILE = "$(SRCROOT)/Profesiones App/Base/Info.plist";
