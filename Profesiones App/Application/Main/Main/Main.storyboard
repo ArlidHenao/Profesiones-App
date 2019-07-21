@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="897" y="-206"/>
         </scene>
-        <!--Profile-->
+        <!--Message-->
         <scene sceneID="0mQ-f9-Hjx">
             <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="g66-ig-EhY" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Message" id="g66-ig-EhY" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="byQ-uV-5wj"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZM-ch-CTp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="911" y="81"/>
         </scene>
-        <!--Message-->
+        <!--Profile-->
         <scene sceneID="cJs-rB-Owx">
             <objects>
-                <viewControllerPlaceholder storyboardName="Message" id="VH4-lF-DaY" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Profile" id="VH4-lF-DaY" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="XQf-ak-S73"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hkD-RJ-Yqu" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -126,14 +126,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="480"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Fmn-oj-4mz">
-                                                <rect key="frame" x="132" y="20" width="150" height="80"/>
+                                                <rect key="frame" x="192" y="20" width="30" height="16"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Fmn-oj-4mz" secondAttribute="height" multiplier="15:8" id="78a-cz-bwK"/>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="304" id="PGd-lM-G5d"/>
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Boq-CZ-TXX">
-                                                <rect key="frame" x="0.0" y="125" width="414" height="220"/>
+                                                <rect key="frame" x="0.0" y="61" width="414" height="320"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo Electronico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UeK-XQ-srt">
                                                         <rect key="frame" x="20" y="20" width="374" height="30"/>
@@ -155,7 +155,7 @@
                                                         </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMk-8h-pjO">
-                                                        <rect key="frame" x="20" y="155" width="374" height="45"/>
+                                                        <rect key="frame" x="20" y="255" width="374" height="45"/>
                                                         <color key="backgroundColor" name="GreenColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="ojt-fo-ABT"/>
@@ -192,7 +192,7 @@
                                                     <constraint firstItem="a8T-bB-ovv" firstAttribute="top" secondItem="7SF-7Q-0rd" secondAttribute="bottom" constant="8" id="TDS-y2-bfB"/>
                                                     <constraint firstAttribute="trailing" secondItem="a8T-bB-ovv" secondAttribute="trailing" constant="20" id="TKK-nS-KpI"/>
                                                     <constraint firstAttribute="trailing" secondItem="UeK-XQ-srt" secondAttribute="trailing" constant="20" id="hhq-go-mX7"/>
-                                                    <constraint firstAttribute="height" constant="220" id="iLe-eW-nAC"/>
+                                                    <constraint firstAttribute="height" constant="320" id="iLe-eW-nAC"/>
                                                     <constraint firstItem="7SF-7Q-0rd" firstAttribute="top" secondItem="UeK-XQ-srt" secondAttribute="bottom" constant="20" id="kLC-l4-D8m"/>
                                                     <constraint firstItem="cMk-8h-pjO" firstAttribute="leading" secondItem="Boq-CZ-TXX" secondAttribute="leading" constant="20" id="mAO-mr-Wep"/>
                                                     <constraint firstAttribute="trailing" secondItem="7SF-7Q-0rd" secondAttribute="trailing" constant="20" id="nw0-OG-E0g"/>
@@ -250,7 +250,7 @@
                 <viewControllerPlaceholder storyboardName="Main" id="9y4-oe-th9" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CYT-Pu-PXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="703" y="18"/>
+            <point key="canvasLocation" x="662" y="87"/>
         </scene>
         <!--SignUp-->
         <scene sceneID="zNK-Le-yse">
