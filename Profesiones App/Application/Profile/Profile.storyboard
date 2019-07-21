@@ -14,14 +14,43 @@
         <!--PERFIL-->
         <scene sceneID="5Wv-0B-FyN">
             <objects>
-                <viewController id="avj-Xn-pPD" sceneMemberID="viewController">
+                <viewController id="avj-Xn-pPD" customClass="ProfileViewController" customModule="Profesiones_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZJj-Wg-JsC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-Wd-VBj">
+                                <rect key="frame" x="0.0" y="88" width="414" height="150"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usuario-predeterminado" translatesAutoresizingMaskIntoConstraints="NO" id="tAP-ZQ-tZl">
+                                        <rect key="frame" x="157" y="25" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="PKd-81-gfH"/>
+                                            <constraint firstAttribute="width" constant="100" id="XgG-3s-LZd"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="tAP-ZQ-tZl" firstAttribute="centerY" secondItem="wx7-Wd-VBj" secondAttribute="centerY" id="70p-Rh-VlC"/>
+                                    <constraint firstAttribute="height" constant="150" id="JYO-WN-gQn"/>
+                                    <constraint firstItem="tAP-ZQ-tZl" firstAttribute="centerX" secondItem="wx7-Wd-VBj" secondAttribute="centerX" id="uEx-ZW-VSy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wx7-Wd-VBj" firstAttribute="centerX" secondItem="ZJj-Wg-JsC" secondAttribute="centerX" id="2L2-La-6ve"/>
+                            <constraint firstItem="wx7-Wd-VBj" firstAttribute="leading" secondItem="akf-CY-xTK" secondAttribute="leading" id="2ny-dq-itI"/>
+                            <constraint firstItem="wx7-Wd-VBj" firstAttribute="top" secondItem="akf-CY-xTK" secondAttribute="top" id="RAL-Vu-dVe"/>
+                            <constraint firstItem="akf-CY-xTK" firstAttribute="trailing" secondItem="wx7-Wd-VBj" secondAttribute="trailing" id="zEt-MC-vtZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="akf-CY-xTK"/>
                     </view>
                     <navigationItem key="navigationItem" title="PERFIL" id="bxy-gY-MjN"/>
+                    <connections>
+                        <outlet property="ImageProfile" destination="tAP-ZQ-tZl" id="hTD-a1-MwG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oW0-6I-UNY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,6 +88,7 @@
     </scenes>
     <resources>
         <image name="TabBarProfile" width="24" height="24"/>
+        <image name="usuario-predeterminado" width="100" height="100"/>
         <namedColor name="GreenColor">
             <color red="0.62352941176470589" green="0.74117647058823533" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
