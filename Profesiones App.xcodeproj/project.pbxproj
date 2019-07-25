@@ -28,6 +28,7 @@
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
 		94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F322E0FB47005F8FE6 /* ViewController.swift */; };
 		94A165FC22E0FB48005F8FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A165FA22E0FB48005F8FE6 /* LaunchScreen.storyboard */; };
+		94DA991222EA1DFC00564D1D /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DA991122EA1DFC00564D1D /* CommentViewController.swift */; };
 		9E7305C8B0170822950778C6 /* Pods_Profesiones_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DDBF313F84CA468C9CA581 /* Pods_Profesiones_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		94A165F322E0FB47005F8FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94A165FB22E0FB48005F8FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A165FD22E0FB48005F8FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DA991122EA1DFC00564D1D /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		AE0CA1E9105BEB92FABA6FA7 /* Pods-Profesiones App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Profesiones App.debug.xcconfig"; path = "Target Support Files/Pods-Profesiones App/Pods-Profesiones App.debug.xcconfig"; sourceTree = "<group>"; };
 		B3DDBF313F84CA468C9CA581 /* Pods_Profesiones_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Profesiones_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				940703AA22E26A2500D37FB7 /* Comment.storyboard */,
+				94DA991122EA1DFC00564D1D /* CommentViewController.swift */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94DA991222EA1DFC00564D1D /* CommentViewController.swift in Sources */,
 				94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */,
 				940703B922E26A9B00D37FB7 /* SignUp.swift in Sources */,
 				94813F1022E6390E0038F680 /* PublicationViewController.swift in Sources */,
