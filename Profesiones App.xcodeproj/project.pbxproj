@@ -24,6 +24,7 @@
 		940703CF22E26EBD00D37FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703CE22E26EBD00D37FB7 /* Assets.xcassets */; };
 		940703D122E2762B00D37FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703D022E2762B00D37FB7 /* Main.storyboard */; };
 		9436DDB222EB7B8C004018C6 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 9436DDB122EB7B8C004018C6 /* Cartfile */; };
+		9436DDB422EB8432004018C6 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436DDB322EB8432004018C6 /* MessageViewController.swift */; };
 		946B348322E519F4002A1829 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B348222E519F4002A1829 /* ProfileViewController.swift */; };
 		94813F1022E6390E0038F680 /* PublicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94813F0F22E6390E0038F680 /* PublicationViewController.swift */; };
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
@@ -52,6 +53,7 @@
 		940703CE22E26EBD00D37FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940703D022E2762B00D37FB7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9436DDB122EB7B8C004018C6 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		9436DDB322EB8432004018C6 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		946B348222E519F4002A1829 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		94813F0F22E6390E0038F680 /* PublicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationViewController.swift; sourceTree = "<group>"; };
 		94A165EE22E0FB47005F8FE6 /* Profesiones App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profesiones App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				940703AC22E26A3400D37FB7 /* Message.storyboard */,
+				9436DDB322EB8432004018C6 /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				940703C122E26AAA00D37FB7 /* SignInViewModel.swift in Sources */,
 				940703BB22E26A9B00D37FB7 /* SignUpViewController.swift in Sources */,
 				940703C722E26AE800D37FB7 /* Constants.swift in Sources */,
+				9436DDB422EB8432004018C6 /* MessageViewController.swift in Sources */,
 				940703BF22E26AAA00D37FB7 /* SignInViewController.swift in Sources */,
 				946B348322E519F4002A1829 /* ProfileViewController.swift in Sources */,
 				94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */,
