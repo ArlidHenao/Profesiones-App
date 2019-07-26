@@ -23,6 +23,7 @@
 		940703CD22E26E1900D37FB7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703CC22E26E1900D37FB7 /* Colors.xcassets */; };
 		940703CF22E26EBD00D37FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940703CE22E26EBD00D37FB7 /* Assets.xcassets */; };
 		940703D122E2762B00D37FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703D022E2762B00D37FB7 /* Main.storyboard */; };
+		9436DDB222EB7B8C004018C6 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 9436DDB122EB7B8C004018C6 /* Cartfile */; };
 		946B348322E519F4002A1829 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B348222E519F4002A1829 /* ProfileViewController.swift */; };
 		94813F1022E6390E0038F680 /* PublicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94813F0F22E6390E0038F680 /* PublicationViewController.swift */; };
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
@@ -50,6 +51,7 @@
 		940703CC22E26E1900D37FB7 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		940703CE22E26EBD00D37FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		940703D022E2762B00D37FB7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9436DDB122EB7B8C004018C6 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		946B348222E519F4002A1829 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		94813F0F22E6390E0038F680 /* PublicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationViewController.swift; sourceTree = "<group>"; };
 		94A165EE22E0FB47005F8FE6 /* Profesiones App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profesiones App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,6 +231,7 @@
 		94A165E522E0FB47005F8FE6 = {
 			isa = PBXGroup;
 			children = (
+				9436DDB122EB7B8C004018C6 /* Cartfile */,
 				940703A822E268AF00D37FB7 /* Default-568h@2x.png */,
 				94A165F022E0FB47005F8FE6 /* Profesiones App */,
 				94A165EF22E0FB47005F8FE6 /* Products */,
@@ -339,6 +342,7 @@
 				94A165FC22E0FB48005F8FE6 /* LaunchScreen.storyboard in Resources */,
 				940703B122E26A4D00D37FB7 /* Profile.storyboard in Resources */,
 				940703B322E26A5800D37FB7 /* Home.storyboard in Resources */,
+				9436DDB222EB7B8C004018C6 /* Cartfile in Resources */,
 				940703BA22E26A9B00D37FB7 /* SignUp.storyboard in Resources */,
 				940703A922E268AF00D37FB7 /* Default-568h@2x.png in Resources */,
 				940703C022E26AAA00D37FB7 /* SignIn.storyboard in Resources */,
