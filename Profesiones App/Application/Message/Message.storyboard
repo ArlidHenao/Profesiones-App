@@ -14,7 +14,7 @@
         <!--MENSAJES-->
         <scene sceneID="B09-tx-Oss">
             <objects>
-                <viewController id="Vsm-O9-kEy" sceneMemberID="viewController">
+                <viewController id="Vsm-O9-kEy" customClass="MessageViewController" customModule="Profesiones_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ovE-Dk-BWf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

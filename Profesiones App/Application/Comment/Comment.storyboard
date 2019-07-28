@@ -14,7 +14,7 @@
         <!--COMENTARIOS-->
         <scene sceneID="xfQ-P1-fqD">
             <objects>
-                <viewController id="Hb0-S2-ruH" sceneMemberID="viewController">
+                <viewController id="Hb0-S2-ruH" customClass="CommentViewController" customModule="Profesiones_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ubb-ur-yUn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

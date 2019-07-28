@@ -25,6 +25,9 @@
 		940703D122E2762B00D37FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940703D022E2762B00D37FB7 /* Main.storyboard */; };
 		946B348322E519F4002A1829 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B348222E519F4002A1829 /* ProfileViewController.swift */; };
 		946E6C5F22EE592900052461 /* PublicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E6C5E22EE592900052461 /* PublicationViewController.swift */; };
+		946E6C6122EE5B1300052461 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E6C6022EE5B1300052461 /* MessageViewController.swift */; };
+		946E6C6322EE5B5500052461 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E6C6222EE5B5500052461 /* HomeViewController.swift */; };
+		946E6C6522EE5B7F00052461 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E6C6422EE5B7F00052461 /* CommentViewController.swift */; };
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
 		94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F322E0FB47005F8FE6 /* ViewController.swift */; };
 		94A165FC22E0FB48005F8FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A165FA22E0FB48005F8FE6 /* LaunchScreen.storyboard */; };
@@ -51,6 +54,9 @@
 		940703D022E2762B00D37FB7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		946B348222E519F4002A1829 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		946E6C5E22EE592900052461 /* PublicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationViewController.swift; sourceTree = "<group>"; };
+		946E6C6022EE5B1300052461 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		946E6C6222EE5B5500052461 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		946E6C6422EE5B7F00052461 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		94A165EE22E0FB47005F8FE6 /* Profesiones App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profesiones App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A165F122E0FB47005F8FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A165F322E0FB47005F8FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				940703AA22E26A2500D37FB7 /* Comment.storyboard */,
+				946E6C6422EE5B7F00052461 /* CommentViewController.swift */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				940703B222E26A5800D37FB7 /* Home.storyboard */,
+				946E6C6222EE5B5500052461 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				940703D022E2762B00D37FB7 /* Main.storyboard */,
+				94A165F322E0FB47005F8FE6 /* ViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -181,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				940703AC22E26A3400D37FB7 /* Message.storyboard */,
+				946E6C6022EE5B1300052461 /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -250,7 +260,6 @@
 				9407039A22E2679500D37FB7 /* Constants */,
 				9407039922E2677F00D37FB7 /* Base */,
 				9407039822E2676E00D37FB7 /* Application */,
-				94A165F322E0FB47005F8FE6 /* ViewController.swift */,
 			);
 			path = "Profesiones App";
 			sourceTree = "<group>";
@@ -400,8 +409,11 @@
 				940703B922E26A9B00D37FB7 /* SignUp.swift in Sources */,
 				946E6C5F22EE592900052461 /* PublicationViewController.swift in Sources */,
 				940703C122E26AAA00D37FB7 /* SignInViewModel.swift in Sources */,
+				946E6C6122EE5B1300052461 /* MessageViewController.swift in Sources */,
 				940703BB22E26A9B00D37FB7 /* SignUpViewController.swift in Sources */,
 				940703C722E26AE800D37FB7 /* Constants.swift in Sources */,
+				946E6C6322EE5B5500052461 /* HomeViewController.swift in Sources */,
+				946E6C6522EE5B7F00052461 /* CommentViewController.swift in Sources */,
 				940703BF22E26AAA00D37FB7 /* SignInViewController.swift in Sources */,
 				946B348322E519F4002A1829 /* ProfileViewController.swift in Sources */,
 				94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */,
