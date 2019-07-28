@@ -14,11 +14,23 @@
         <!--MENSAJES-->
         <scene sceneID="B09-tx-Oss">
             <objects>
-                <viewController id="Vsm-O9-kEy" customClass="MessageViewController" customModule="Profesiones_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Vsm-O9-kEy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ovE-Dk-BWf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Zkf-W4-k52">
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zkf-W4-k52" firstAttribute="centerX" secondItem="ovE-Dk-BWf" secondAttribute="centerX" id="JoR-Sn-nwo"/>
+                            <constraint firstItem="GCD-nE-ROk" firstAttribute="trailing" secondItem="Zkf-W4-k52" secondAttribute="trailing" id="bpo-ha-Pyh"/>
+                            <constraint firstItem="Zkf-W4-k52" firstAttribute="top" secondItem="GCD-nE-ROk" secondAttribute="top" id="xLG-jT-x9Z"/>
+                            <constraint firstItem="Zkf-W4-k52" firstAttribute="leading" secondItem="ovE-Dk-BWf" secondAttribute="leading" id="y3j-1o-nHA"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="GCD-nE-ROk"/>
                     </view>
                     <navigationItem key="navigationItem" title="MENSAJES" id="wQB-9X-vwn"/>
