@@ -6,8 +6,9 @@
 //  Copyright © 2019 Arlid Henao Rueda. All rights reserved.
 //
 
-import UIKit
+import Foundation
+import UserNotifications
 
-class LocalNotificationsController: NSObject {
+class LocalNotificationsController {
 
 }
