@@ -32,6 +32,7 @@
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
 		94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F322E0FB47005F8FE6 /* ViewController.swift */; };
 		94A165FC22E0FB48005F8FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A165FA22E0FB48005F8FE6 /* LaunchScreen.storyboard */; };
+		94A61A8922F25CD10090D412 /* LocalNotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A61A8822F25CD10090D412 /* LocalNotificationsController.swift */; };
 		94B54EDF22EFB7F100DD0BE0 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 94B54EDE22EFB7F100DD0BE0 /* Cartfile */; };
 		9E7305C8B0170822950778C6 /* Pods_Profesiones_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DDBF313F84CA468C9CA581 /* Pods_Profesiones_App.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		94A165F322E0FB47005F8FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94A165FB22E0FB48005F8FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A165FD22E0FB48005F8FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A61A8822F25CD10090D412 /* LocalNotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalNotificationsController.swift; path = "Profesiones App/Controllers/LocalNotificationsController.swift"; sourceTree = SOURCE_ROOT; };
 		94B54EDE22EFB7F100DD0BE0 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		AE0CA1E9105BEB92FABA6FA7 /* Pods-Profesiones App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Profesiones App.debug.xcconfig"; path = "Target Support Files/Pods-Profesiones App/Pods-Profesiones App.debug.xcconfig"; sourceTree = "<group>"; };
 		B3DDBF313F84CA468C9CA581 /* Pods_Profesiones_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Profesiones_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,12 +256,21 @@
 		94A165F022E0FB47005F8FE6 /* Profesiones App */ = {
 			isa = PBXGroup;
 			children = (
+				94A61A8722F25C740090D412 /* Controllers */,
 				9407039C22E267CC00D37FB7 /* Resources */,
 				9407039A22E2679500D37FB7 /* Constants */,
 				9407039922E2677F00D37FB7 /* Base */,
 				9407039822E2676E00D37FB7 /* Application */,
 			);
 			path = "Profesiones App";
+			sourceTree = "<group>";
+		};
+		94A61A8722F25C740090D412 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94A61A8822F25CD10090D412 /* LocalNotificationsController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C555B764C96464C573DCB5B5 /* Pods */ = {
@@ -415,6 +426,7 @@
 				946E6C6322EE5B5500052461 /* HomeViewController.swift in Sources */,
 				946E6C6522EE5B7F00052461 /* CommentViewController.swift in Sources */,
 				940703BF22E26AAA00D37FB7 /* SignInViewController.swift in Sources */,
+				94A61A8922F25CD10090D412 /* LocalNotificationsController.swift in Sources */,
 				946B348322E519F4002A1829 /* ProfileViewController.swift in Sources */,
 				94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */,
 			);
