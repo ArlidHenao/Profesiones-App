@@ -28,6 +28,7 @@
 		946E6C6122EE5B1300052461 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E6C6022EE5B1300052461 /* MessageViewController.swift */; };
 		946E6C6322EE5B5500052461 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E6C6222EE5B5500052461 /* HomeViewController.swift */; };
 		946E6C6522EE5B7F00052461 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946E6C6422EE5B7F00052461 /* CommentViewController.swift */; };
+		9498147D22F121F600BBA5E1 /* CommentDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9498147C22F121F600BBA5E1 /* CommentDetailStoryboard.storyboard */; };
 		94A165F222E0FB47005F8FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F122E0FB47005F8FE6 /* AppDelegate.swift */; };
 		94A165F422E0FB47005F8FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A165F322E0FB47005F8FE6 /* ViewController.swift */; };
 		94A165FC22E0FB48005F8FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A165FA22E0FB48005F8FE6 /* LaunchScreen.storyboard */; };
@@ -58,6 +59,7 @@
 		946E6C6022EE5B1300052461 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		946E6C6222EE5B5500052461 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		946E6C6422EE5B7F00052461 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		9498147C22F121F600BBA5E1 /* CommentDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CommentDetailStoryboard.storyboard; sourceTree = "<group>"; };
 		94A165EE22E0FB47005F8FE6 /* Profesiones App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profesiones App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A165F122E0FB47005F8FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A165F322E0FB47005F8FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,13 +114,6 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		9407039B22E267BC00D37FB7 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		9407039C22E267CC00D37FB7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +153,7 @@
 			children = (
 				940703AA22E26A2500D37FB7 /* Comment.storyboard */,
 				946E6C6422EE5B7F00052461 /* CommentViewController.swift */,
+				9498147C22F121F600BBA5E1 /* CommentDetailStoryboard.storyboard */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -259,7 +255,6 @@
 			isa = PBXGroup;
 			children = (
 				9407039C22E267CC00D37FB7 /* Resources */,
-				9407039B22E267BC00D37FB7 /* Controllers */,
 				9407039A22E2679500D37FB7 /* Constants */,
 				9407039922E2677F00D37FB7 /* Base */,
 				9407039822E2676E00D37FB7 /* Application */,
@@ -356,6 +351,7 @@
 				940703CD22E26E1900D37FB7 /* Colors.xcassets in Resources */,
 				940703AD22E26A3400D37FB7 /* Message.storyboard in Resources */,
 				940703CF22E26EBD00D37FB7 /* Assets.xcassets in Resources */,
+				9498147D22F121F600BBA5E1 /* CommentDetailStoryboard.storyboard in Resources */,
 				940703AB22E26A2500D37FB7 /* Comment.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
